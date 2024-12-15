@@ -54,9 +54,10 @@ public class UsuarioController : Controller
     [HttpGet("Atualizar")]
     public async Task<IActionResult> Atualizar()
     {
-        var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        //var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var userIdString = User.Claims.FirstOrDefault(c => c.Type == "IdUsuario")?.Value;
 
-        if (string.IsNullOrEmpty(userIdString) || !int.TryParse(userIdString, out var userId))
+        if (string.IsNullOrEmpty(userIdString))
         {
             return RedirectToAction("Error");
         }
@@ -78,9 +79,10 @@ public class UsuarioController : Controller
             return View(usuario);
         }
 
-        var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        //var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var userIdString = User.Claims.FirstOrDefault(c => c.Type == "IdUsuario")?.Value;
 
-        if (string.IsNullOrEmpty(userIdString) || !int.TryParse(userIdString, out var userId))
+        if (string.IsNullOrEmpty(userIdString))
         {
             return RedirectToAction("Error");
         }

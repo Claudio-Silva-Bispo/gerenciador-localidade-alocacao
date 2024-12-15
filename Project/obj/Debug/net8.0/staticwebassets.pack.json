@@ -25,18 +25,6 @@
       "PackagePath": "staticwebassets/assets/Home/imagem1.jpg"
     },
     {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Home/imagem1.png",
-      "PackagePath": "staticwebassets/assets/Home/imagem1.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Home/imagem2.jpg",
-      "PackagePath": "staticwebassets/assets/Home/imagem2.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Home/imagem3.jpg",
-      "PackagePath": "staticwebassets/assets/Home/imagem3.jpg"
-    },
-    {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Home/imagem4.png",
       "PackagePath": "staticwebassets/assets/Home/imagem4.png"
     },
@@ -53,18 +41,6 @@
       "PackagePath": "staticwebassets/assets/Home/imagem7.png"
     },
     {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Home/imagem8.png",
-      "PackagePath": "staticwebassets/assets/Home/imagem8.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Home/imagem9.jpg",
-      "PackagePath": "staticwebassets/assets/Home/imagem9.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Home/imagem9.png",
-      "PackagePath": "staticwebassets/assets/Home/imagem9.png"
-    },
-    {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Imagem/imagem.jpeg",
       "PackagePath": "staticwebassets/assets/Imagem/imagem.jpeg"
     },
@@ -77,14 +53,6 @@
       "PackagePath": "staticwebassets/assets/Imagem/imagem2.png"
     },
     {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Imagem/imagem3.png",
-      "PackagePath": "staticwebassets/assets/Imagem/imagem3.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Item/imagem.jpg",
-      "PackagePath": "staticwebassets/assets/Item/imagem.jpg"
-    },
-    {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Login/imagem.jpg",
       "PackagePath": "staticwebassets/assets/Login/imagem.jpg"
     },
@@ -95,62 +63,6 @@
     {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/LoginLog/imagem.jpg",
       "PackagePath": "staticwebassets/assets/LoginLog/imagem.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/banheiro.jpg",
-      "PackagePath": "staticwebassets/assets/Mapa/banheiro.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/cozinha.jpg",
-      "PackagePath": "staticwebassets/assets/Mapa/cozinha.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem1.jpeg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem1.jpeg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem2.jpeg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem2.jpeg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem3.jpeg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem3.jpeg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem4.jpeg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem4.jpeg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem5.jpeg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem5.jpeg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem6.jpeg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem6.jpeg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem7.jpg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem7.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/imagem8.jpeg",
-      "PackagePath": "staticwebassets/assets/Mapa/imagem8.jpeg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/lavanderia.jpg",
-      "PackagePath": "staticwebassets/assets/Mapa/lavanderia.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/quarto.jpg",
-      "PackagePath": "staticwebassets/assets/Mapa/quarto.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/quarto2.png",
-      "PackagePath": "staticwebassets/assets/Mapa/quarto2.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mapa/sala.jpg",
-      "PackagePath": "staticwebassets/assets/Mapa/sala.jpg"
     },
     {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mensagem/imagem.png",
@@ -203,10 +115,6 @@
     {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Problema/imagem4.png",
       "PackagePath": "staticwebassets/assets/Problema/imagem4.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Prototipo/imagem1.jpeg",
-      "PackagePath": "staticwebassets/assets/Prototipo/imagem1.jpeg"
     },
     {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Time/claudio.jpeg",

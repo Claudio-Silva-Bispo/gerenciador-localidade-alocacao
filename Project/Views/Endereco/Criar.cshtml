@@ -1,7 +1,10 @@
+@using System.Security.Claims
 @model Project.Models.EnderecoDTO
 
 @{
     ViewData["Title"] = "Endereco de preferencia";
+    var userId = User.Claims.FirstOrDefault(c => c.Type == "IdUsuario")?.Value;
+
 }
 
 <section class="d-flex p-3" style="height: 80vh">
@@ -23,12 +26,15 @@
                     var emailUsuario = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email)?.Value;
 
                     // Pegando o ID do usuário
-                    var idUsuario = User.Claims.FirstOrDefault(c => c.Type == "UsuarioId")?.Value;
+                    var idUsuario = User.Claims.FirstOrDefault(c => c.Type == "IdUsuario")?.Value;
+
+                    <span style="color: blue;">ID: @idUsuario</span>
                 }
             </h6>
         
             <form asp-action="Criar" method="post">
-                <input type="hidden" asp-for="IdUsuario" value="@ViewData["UsuarioId"]" />
+
+                <input asp-for="IdUsuario" value="@userId" type="hidden" />
 
                 <div class="form-group">
                     <label asp-for="CEP" class="control-label">CEP</label>
@@ -55,6 +61,7 @@
                     <input asp-for="Rua" class="form-control" />
                     <span asp-validation-for="Rua" class="text-danger"></span>
                 </div>
+                
                 <div class="form-group pt-3">
                     <input type="submit" class="btn" style="background-color: #4CAF50; color: #ffff ;" />
                     <a asp-action="Consultar" class="btn btn-secondary">Consultar</a>

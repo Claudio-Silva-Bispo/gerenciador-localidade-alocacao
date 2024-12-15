@@ -6,6 +6,7 @@
     <table class="table">
         <thead>
             <tr>
+                <th>Id</th>
                 <th>Nome</th>
                 <th>Telefone</th>
                 <th>Email</th>
@@ -16,6 +17,7 @@
             @foreach (var usuario in Model)
             {
                 <tr>
+                    <td>@usuario.Id</td>
                     <td>@usuario.Nome</td>
                     <td>@usuario.Telefone</td>
                     <td>@usuario.Email</td>
@@ -28,6 +30,7 @@
     <div class="form-group pt-3">
         <a asp-controller="Usuario" asp-action="Criar" class="btn btn-warning">Voltar</a>
         <a asp-controller="Usuario" asp-action="Criar" class="btn btn-primary">Criar</a>
+        <a asp-controller="Usuario" asp-action="Atualizar" class="btn btn-primary">Atualizar dados</a>
         <a asp-controller="Home" asp-action="Index" class="btn btn-secondary bg-green">Home</a>
     </div>
 

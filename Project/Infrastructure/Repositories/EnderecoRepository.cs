@@ -24,10 +24,11 @@ namespace Project.Repositories
             return endereco;
         }
 
-        public async Task<Endereco> ConsultarId(string id)
+        public async Task<Endereco> ConsultarPorUsuarioId(string usuarioId)
         {
-            var filtro = Builders<Endereco>.Filter.Eq(u => u.Id, id);
-            return await _enderecoCollection.Find(filtro).FirstOrDefaultAsync();
+            return await _enderecoCollection
+                        .Find(e => e.IdUsuario == usuarioId)
+                        .FirstOrDefaultAsync(); 
         }
 
         public async Task<List<Endereco>> ConsultarTodos()

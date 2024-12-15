@@ -17,7 +17,11 @@
                         @* Exibe o nome do usuário se ele estiver logado *@
                         <span style="color: blue;">Bem-vindo, @User.Identity.Name!</span>
                         
-                        
+                        // Busca o ID do usuário autenticado a partir das claims
+                        var idUsuario = User.Claims.FirstOrDefault(c => c.Type == "IdUsuario")?.Value;
+
+                        // Exibe o ID do usuário
+                        <span style="color: blue;">Meu ID: @idUsuario</span>
                     }
                     else
                     {
@@ -33,7 +37,27 @@
                             <div class="card shadow-lg rounded-lg overflow-hidden" style="max-width: 22rem;">
                                 <img
                                     alt="Card"
-                                    src="/assets/Endereco/imagem1.png"
+                                    src="/assets/Home/imagem1.jpg"
+                                    class="img-fluid"
+                                    style="height: 200px; object-fit: contains;"
+                                />
+                                <div class="card-body">
+                                    <h3 class="card-title w-100" style="color: blue;">Usuário</h3>
+                                    <p style="color: #3C4748; text-align: start;">
+                                        Avalie seus dados cadastrais básicos e modifique a qualquer momento, base clicar aqui.
+                                    </p>
+                                    <a href="@Url.Action("Consultar", "Usuario")" class="btn btn-custom w-100">
+                                        clique aqui <i class="pi pi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-4">
+                            <div class="card shadow-lg rounded-lg overflow-hidden" style="max-width: 22rem;">
+                                <img
+                                    alt="Card"
+                                    src="/assets/Home/imagem4.png"
                                     class="img-fluid"
                                     style="height: 200px; object-fit: contains;"
                                 />

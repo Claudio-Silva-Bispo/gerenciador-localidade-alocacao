@@ -28,7 +28,7 @@ namespace Project.Repositories
             return login;
         }
 
-         public async Task<Login> ConsultarId(string id)
+        public async Task<Login> ConsultarId(string id)
         {
             var filtro = Builders<Login>.Filter.Eq(u => u.Id, id);
             return await _loginCollection.Find(filtro).FirstOrDefaultAsync();

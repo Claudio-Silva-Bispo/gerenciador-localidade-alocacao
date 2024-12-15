@@ -1,14 +1,15 @@
 @{
-    ViewBag.Title = "Cadastro de Usuário - Sucesso";
+    ViewBag.Title = "Cadastro de endereco - Sucesso";
 }
 
 <section class="energy-section-login">
         <h2>Cadastro realizado com sucesso!</h2>
-        <p>O usuário foi cadastrado com sucesso. Você pode voltar à lista de usuários ou cadastrar outro usuário.</p>
+        <p>O endereco foi cadastrado com sucesso. Você pode continuar cadastrando as preferencias e vamos te apresentar as melhores solucoes.</p>
 
         <div>
-            <a asp-action="Logar" asp-controller="Login" class="btn btn-primary">realize o login</a>
-            <a asp-action="Criar" asp-controller="Usuario" class="btn btn-secondary">Cadastrar novo usuário</a>
+            <a asp-action="Criar" asp-controller="Dias" class="btn btn-primary">cadestre o dia de preferencia</a>
+            <a asp-action="Consultar" asp-controller="Endereco" class="btn btn-warning" style="color: aliceblue;">Consultar</a>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Home</a>
         </div>
  
 </section>

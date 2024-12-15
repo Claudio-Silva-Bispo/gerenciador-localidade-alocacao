@@ -23,9 +23,10 @@ namespace Project.Application.Services
             return enderecos.ToList(); 
         }
 
-        public async Task<Endereco> ConsultarId(string id)
+        public async Task<Endereco> ConsultarPorUsuarioId(string usuarioId)
         {
-            return await _enderecoRepository.ConsultarId(id);
+            return await _enderecoRepository.ConsultarPorUsuarioId(usuarioId);
+           
         }
 
 

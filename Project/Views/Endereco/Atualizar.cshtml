@@ -1,7 +1,7 @@
-@model Project.Models.Usuario
+@model Project.Models.Endereco
 
 @{
-    ViewData["Title"] = "Atualizar dados do usuário";
+    ViewData["Title"] = "Atualizar endereco do usuário";
 }
 
 <section class="d-flex justify-content-center align-items-center mt-5" style="height: 80vh">
@@ -11,27 +11,47 @@
             <h2>Atualizar dados</h2>
             <form asp-action="Atualizar" method="post">
                 <div class="form-group">
-                    <label asp-for="Nome" class="control-label"></label>
-                    <input asp-for="Nome" class="form-control"/>
-                    <span asp-validation-for="Nome" class="text-danger"></span>
+                    <label asp-for="Id" class="control-label"></label>
+                    <input asp-for="Id" class="form-control"/>
+                    <span asp-validation-for="Id" class="text-danger"></span>
                 </div>
                
                 <div class="form-group">
-                    <label asp-for="Email" class="control-label"></label>
-                    <input asp-for="Email" class="form-control"/>
-                    <span asp-validation-for="Email" class="text-danger"></span>
+                    <label asp-for="IdUsuario" class="control-label"></label>
+                    <input asp-for="IdUsuario" class="form-control"/>
+                    <span asp-validation-for="IdUsuario" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Telefone" class="control-label"></label>
-                    <input asp-for="Telefone" class="form-control" />
-                    <span asp-validation-for="Telefone" class="text-danger"></span>
+                    <label asp-for="CEP" class="control-label">CEP</label>
+                    <input asp-for="CEP" class="form-control" />
+                    <span asp-validation-for="CEP" class="text-danger"></span>
                 </div>
                 
                 <div class="form-group">
-                    <label asp-for="Senha" class="control-label">Senha</label>
-                    <input asp-for="Senha" class="form-control" type="password"/>
-                    <span asp-validation-for="Senha" class="text-danger"></span>
+                    <label asp-for="Estado" class="control-label">Estado</label>
+                    <input asp-for="Estado" class="form-control"/>
+                    <span asp-validation-for="Estado" class="text-danger"></span>
                 </div>
+
+                <div class="form-group">
+                    <label asp-for="Cidade" class="control-label">Cidade</label>
+                    <input asp-for="Cidade" class="form-control"/>
+                    <span asp-validation-for="Cidade" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Bairro" class="control-label">Bairro</label>
+                    <input asp-for="Bairro" class="form-control"/>
+                    <span asp-validation-for="Bairro" class="text-danger"></span>
+                </div>
+
+                 <div class="form-group">
+                    <label asp-for="Rua" class="control-label">Rua</label>
+                    <input asp-for="Rua" class="form-control"/>
+                    <span asp-validation-for="Rua" class="text-danger"></span>
+                </div>
+
+
                 <div class="form-group pt-3">
                     <input type="submit" value="Salvar" class="btn btn-primary" />
                     <a asp-controller="DadosCadastrais" asp-action="Consultar" class="btn btn-secondary">Consultar</a>
@@ -40,7 +60,6 @@
         </div>
     </div>
 
-    <!-- Container da Imagem ocupando 80% da largura e 100% da altura -->
     <div class="w-80" style="height: 80vh">
         <img src="~/assets/Usuario/imagem.png" alt="Imagem de fundo para área de cadastro cliente" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
     </div>

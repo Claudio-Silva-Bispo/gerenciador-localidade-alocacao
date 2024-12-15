@@ -74,14 +74,15 @@ public class EnderecoController : Controller
     [HttpGet("Atualizar")]
     public async Task<IActionResult> Atualizar()
     {
-        var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        //var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var userIdString = User.Claims.FirstOrDefault(c => c.Type == "IdUsuario")?.Value;
 
-        if (string.IsNullOrEmpty(userIdString) || !int.TryParse(userIdString, out var userId))
+        if (string.IsNullOrEmpty(userIdString))
         {
             return RedirectToAction("Error");
         }
 
-        var endereco = await _enderecoService.ConsultarId(userIdString);
+        var endereco = await _enderecoService.ConsultarPorUsuarioId(userIdString);
         if (endereco == null)
         {
             return NotFound();
@@ -98,14 +99,15 @@ public class EnderecoController : Controller
             return View(endereco);
         }
 
-        var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        //var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var userIdString = User.Claims.FirstOrDefault(c => c.Type == "IdUsuario")?.Value;
 
-        if (string.IsNullOrEmpty(userIdString) || !int.TryParse(userIdString, out var userId))
+        if (string.IsNullOrEmpty(userIdString))
         {
             return RedirectToAction("Error");
         }
 
-        var enderecoExistente = await _enderecoService.ConsultarId(userIdString);
+        var enderecoExistente = await _enderecoService.ConsultarPorUsuarioId(userIdString);
 
         if (enderecoExistente == null)
         {
@@ -133,7 +135,7 @@ public class EnderecoController : Controller
     [HttpGet("ConfirmarExcluir/{id}")]
     public async Task<IActionResult> ConfirmarExcluir(string id)
     {
-        var endereco = await _enderecoService.ConsultarId(id);
+        var endereco = await _enderecoService.ConsultarPorUsuarioId(id);
         
         if (endereco == null)
         {
@@ -148,7 +150,7 @@ public class EnderecoController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Excluir(string id)
     {
-        var endereco = await _enderecoService.ConsultarId(id);
+        var endereco = await _enderecoService.ConsultarPorUsuarioId(id);
         
         if (endereco != null)
         {
