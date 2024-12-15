@@ -8,6 +8,7 @@
             public string LoginCollectionName { get; set; } = null!;
             public string EnderecoCollectionName { get; set; } = null!;
             public string DiasPreferenciaCollectionName { get; set; } = null!;
+            public string TurnoCollectionName { get; set; } = null!;
         
         }
     }

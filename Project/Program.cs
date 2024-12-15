@@ -42,6 +42,10 @@ builder.Services.AddTransient<IEnderecoRepository, EnderecoRepository>();
 builder.Services.AddTransient<IDiasPreferenciaService, DiasPreferenciaService>();
 builder.Services.AddTransient<IDiasPreferenciaRepository, DiasPreferenciaRepository>();
 
+// Turno de preferencia
+builder.Services.AddTransient<ITurnoService, TurnoService>();
+builder.Services.AddTransient<ITurnoRepository, TurnoRepository>();
+
 
 // Configurar autenticação com cookies
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

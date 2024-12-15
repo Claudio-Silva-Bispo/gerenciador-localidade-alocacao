@@ -94,6 +94,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/Turno/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHVybm8vQXR1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/Turno/Consultar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHVybm8vQ29uc3VsdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/Turno/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHVybm8vQ3JpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/Turno/Mensagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHVybm8vTWVuc2FnZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/Turno/MensagemAtualizacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHVybm8vTWVuc2FnZW1BdHVhbGl6YWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/Usuario/Atualizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9BdHVhbGl6YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -21,5 +21,6 @@ namespace Project.Infrastructure
         public IMongoCollection<Endereco> Endereco => _database.GetCollection<Endereco>("t_endereco");
 
         public IMongoCollection<DiasPreferencia> DiasPreferencia => _database.GetCollection<DiasPreferencia>("t_dias_preferencia");
+        public IMongoCollection<Turno> Turno => _database.GetCollection<Turno>("t_turno");
     }
 }
