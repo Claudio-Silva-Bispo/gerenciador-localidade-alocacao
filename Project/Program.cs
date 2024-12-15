@@ -38,6 +38,11 @@ builder.Services.AddTransient<ILoginRepository, LoginRepository>();
 builder.Services.AddTransient<IEnderecoService, EnderecoService>();
 builder.Services.AddTransient<IEnderecoRepository, EnderecoRepository>();
 
+// Dias Preferencia
+builder.Services.AddTransient<IDiasPreferenciaService, DiasPreferenciaService>();
+builder.Services.AddTransient<IDiasPreferenciaRepository, DiasPreferenciaRepository>();
+
+
 // Configurar autenticação com cookies
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>

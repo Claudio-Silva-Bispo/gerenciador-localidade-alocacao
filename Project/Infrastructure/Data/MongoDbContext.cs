@@ -19,5 +19,7 @@ namespace Project.Infrastructure
         public IMongoCollection<Login> Login => _database.GetCollection<Login>("t_login");
 
         public IMongoCollection<Endereco> Endereco => _database.GetCollection<Endereco>("t_endereco");
+
+        public IMongoCollection<DiasPreferencia> DiasPreferencia => _database.GetCollection<DiasPreferencia>("t_dias_preferencia");
     }
 }

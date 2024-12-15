@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/DiasPreferencia/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlhc1ByZWZlcmVuY2lhL0F0dWFsaXphci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/DiasPreferencia/Consultar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlhc1ByZWZlcmVuY2lhL0NvbnN1bHRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/DiasPreferencia/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlhc1ByZWZlcmVuY2lhL0NyaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/DiasPreferencia/Mensagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlhc1ByZWZlcmVuY2lhL01lbnNhZ2VtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/DiasPreferencia/MensagemAtualizacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlhc1ByZWZlcmVuY2lhL01lbnNhZ2VtQXR1YWxpemFjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/Views/Endereco/Atualizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5kZXJlY28vQXR1YWxpemFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

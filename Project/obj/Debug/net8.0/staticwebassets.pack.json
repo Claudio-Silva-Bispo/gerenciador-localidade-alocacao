@@ -5,18 +5,6 @@
       "PackagePath": "staticwebassets/Project.bundle.scp.css"
     },
     {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Ambientes/imagem.jpg",
-      "PackagePath": "staticwebassets/assets/Ambientes/imagem.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Consumo/imagem.jpg",
-      "PackagePath": "staticwebassets/assets/Consumo/imagem.jpg"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Diferencial/imagem.png",
-      "PackagePath": "staticwebassets/assets/Diferencial/imagem.png"
-    },
-    {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Endereco/imagem1.png",
       "PackagePath": "staticwebassets/assets/Endereco/imagem1.png"
     },
@@ -95,26 +83,6 @@
     {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Mockup/imagem5.png",
       "PackagePath": "staticwebassets/assets/Mockup/imagem5.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Problema/imagem.avif",
-      "PackagePath": "staticwebassets/assets/Problema/imagem.avif"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Problema/imagem.png",
-      "PackagePath": "staticwebassets/assets/Problema/imagem.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Problema/imagem2.png",
-      "PackagePath": "staticwebassets/assets/Problema/imagem2.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Problema/imagem3.png",
-      "PackagePath": "staticwebassets/assets/Problema/imagem3.png"
-    },
-    {
-      "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Problema/imagem4.png",
-      "PackagePath": "staticwebassets/assets/Problema/imagem4.png"
     },
     {
       "Id": "/Users/claudiobispo/Documents/gerenciador-localidade-alocacao/Project/wwwroot/assets/Time/claudio.jpeg",
